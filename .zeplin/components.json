@@ -1,0 +1,26 @@
+{
+    "projects": [
+        "5eb8b9de0efe004a5171a2ea"
+    ],
+    "styleguides": [
+        "5eb8cb56af2f7a764bbd6b46"
+    ],
+    "components": [
+        {
+            "path": "travel-style/src/Button/Button.js",
+            "zeplinNames": [
+                "Primary Button",
+                "Secondary Button",
+                "Tertiary Button",
+                "Outline Button"
+            ]
+        }
+    ],
+    "plugins": [{
+        "name": "@zeplin/cli-connect-storybook-plugin",
+        "config": {
+            "url": "http://localhost:9009",
+            "startScript": "storybook"
+        }
+    }]
+}

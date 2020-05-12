@@ -34,7 +34,7 @@ export const disabledButtons = () => (
 export const loadingBtns = () => (
   <>
     <Button appearence="outline" isLoading>
-    Loading
+      Loading
     </Button>
     <Button appearence="secondary" isLoading loadingText="Custom load">
       Secondary
